@@ -1,0 +1,11 @@
+
+<div class = "video-box">
+  <div class="list">
+    <div class="list-title">Videos</div>
+    <ul class="video-collection" style="height: 200px; overflow-y: auto">
+      <li class="video-item" *ngFor="let video of video">
+        {{video.title}} - {{video.author}}
+      </li>
+    </ul>
+  </div>
+</div>
