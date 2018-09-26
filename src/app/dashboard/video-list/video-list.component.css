@@ -8,13 +8,19 @@
   text-align: center;
   padding: 3px;
   font-size: 18px;
+
 }
- ul {
+ .video-collection {
    list-style: none;
    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
 }
 
-li {
+.video-item {
   background-color: white;
   border: solid black 2px;
+  margin: 20px;
+  max-width: 300px;
 }
