@@ -1,20 +1,20 @@
 .list {
-  border: solid black 2px;
-  background-color: white;
   justify-content: center;
 }
+ .video-box {
 
-.video-box {
-  display: flex;
-  justify-content: center;
 }
-
-.list-title {
+ .list-title {
   text-align: center;
   padding: 3px;
   font-size: 18px;
 }
+ ul {
+   list-style: none;
+   display: flex;
+}
 
-ul {
-  width: 500px;
+li {
+  background-color: white;
+  border: solid black 2px;
 }

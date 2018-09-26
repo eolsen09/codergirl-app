@@ -201,10 +201,16 @@ const nameIt =
   styleUrls: ['./video-list.component.css']
 })
 export class VideoListComponent implements OnInit {
+  selectedVideoId: string | undefined;
   video = nameIt;
   constructor() { }
 
   ngOnInit() {
   }
 
-}
+  pickVideo(video: any) {
+    this.selectedVideoId = video.id;
+  }
+
+  }
+
